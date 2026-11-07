@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#260811">
+  <meta name="description" content="Адинанын кыз узатуу тоюна чакыруу">
+  <title>Адина | Кыз узатуу</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-frame" aria-hidden="true"></div>
+
+  <!-- Алгач ачылуучу конверт -->
+  <div class="envelope-screen" id="envelopeScreen">
+    <div class="envelope-intro">
+      <p class="envelope-overline">Сизге өзгөчө чакыруу</p>
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Чакыруу конвертин ачуу">
+        <div class="envelope-back"></div>
+        <div class="envelope-letter"><span>А</span><small>Адина</small></div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-front"></div>
+        <svg class="envelope-lily" viewBox="0 0 100 100" aria-hidden="true">
+          <path class="petal" d="M50 54 C35 40 28 20 42 8 C54 16 57 34 50 54Z"/>
+          <path class="petal" d="M50 54 C48 32 58 12 75 15 C80 31 68 47 50 54Z"/>
+          <path class="petal" d="M50 54 C67 39 85 36 92 51 C83 65 65 65 50 54Z"/>
+          <path class="petal" d="M50 54 C68 65 76 83 63 94 C48 87 43 70 50 54Z"/>
+          <path class="petal" d="M50 54 C44 76 29 89 15 78 C17 61 34 52 50 54Z"/>
+          <path class="petal" d="M50 54 C30 58 12 48 13 32 C29 25 44 39 50 54Z"/>
+          <path class="petal-inner" d="M50 54 C40 42 38 28 44 18 C51 31 54 43 50 54Z"/>
+          <path class="stamen" d="M50 54 Q58 43 65 35 M50 54 Q56 46 73 43 M50 54 Q53 45 56 31"/>
+          <circle class="pollen" cx="65" cy="35" r="2.5"/><circle class="pollen" cx="73" cy="43" r="2.5"/><circle class="pollen" cx="56" cy="31" r="2.5"/>
+        </svg>
+      </div>
+      <h1 class="envelope-title">Адина</h1>
+      <p class="envelope-subtitle">Кыз узатуу тоюна чакыруу</p>
+      <button class="open-invitation" id="openInvitation" type="button">ЧАКЫРУУНУ АЧУУ <span>✦</span></button>
+      <p class="envelope-hint">Сиз үчүн даярдалган чакыруу</p>
+    </div>
+  </div>
+
+  <header class="header">
+    <a class="brand" href="#home">Адина<span>✦</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Меню" aria-expanded="false">☰</button>
+    <nav class="navigation" id="navigation">
+      <a href="#invitation">Чакыруу</a>
+      <a href="#countdown">Санак</a>
+      <a href="#details">Маалымат</a>
+      <a href="#rsvp">Анкета</a>
+      <a href="#thanks">Рахмат</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <div class="hero-plaque">
+          <p class="eyebrow">Өзгөчө күн • Өзгөчө көз ирмем</p>
+          <p class="hero-small-title">Кыз узатуу</p>
+          <h1>Адина</h1>
+          <div class="ornament"><span>✦</span></div>
+          <p class="hero-subtitle">
+            Жашоомдогу эң маанилүү күндөрдүн бирин
+            сиздер менен бөлүшкүм келет.
+          </p>
+          <a class="scroll-link" href="#invitation">Төмөн карай <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom-note">Сүйүү менен • Адина</div>
+    </section>
+
+    <section class="invitation section" id="invitation">
+      <div class="paper-card reveal">
+        <div class="wax-seal" aria-hidden="true">✿</div>
+        <p class="section-kicker">Чакыруу</p>
+        <h2>Урматтуу коноктор!</h2>
+        <div class="small-ornament">✦</div>
+        <p class="invitation-text">
+          Сиздерди кызыбыз Адинанын кыз узатуу тоюна арналган
+          кубанычтуу кечебиздин кадырлуу коногу болууга чакырабыз.
+          Бул өзгөчө күнү биз менен бирге болуп, ак батаңыздарды
+          берип кетсеңиздер, биз үчүн чоң сыймык жана кубаныч болот.
+        </p>
+        <p class="parents-line">Урматтоо менен, Адинанын ата-энеси</p>
+      </div>
+    </section>
+
+    <div class="section-bridge" aria-hidden="true"><span>✦</span><i></i><span>❧</span><i></i><span>✦</span></div>
+    <section class="count-section section" id="countdown">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Күтүлгөн күн</p>
+        <h2>Кубанычка чейин...</h2>
+        <p class="muted">Бул өзгөчө күнгө канча убакыт калганын чогуу санайлы.</p>
+      </div>
+      <div class="countdown reveal" aria-label="Кайра саноо">
+        <div class="count-box"><strong id="days">00</strong><span>Күн</span></div>
+        <div class="count-box"><strong id="hours">00</strong><span>Саат</span></div>
+        <div class="count-box"><strong id="minutes">00</strong><span>Мүнөт</span></div>
+        <div class="count-box"><strong id="seconds">00</strong><span>Секунд</span></div>
+      </div>
+      <p class="date-placeholder">Тойдун датасы кийин жарыяланат</p>
+    </section>
+
+    <div class="section-bridge" aria-hidden="true"><span>✦</span><i></i><span>❧</span><i></i><span>✦</span></div>
+    <section class="details-section section" id="details">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Кеченин маалыматы</p>
+        <h2>Кайда жана качан?</h2>
+        <p class="muted">Так маалыматтар белгилүү болгондо ушул жерге кошобуз.</p>
+      </div>
+      <div class="details-card reveal">
+        <article class="detail-item">
+          <span class="detail-icon">✧</span>
+          <p class="detail-label">Күнү жана убактысы</p>
+          <h3>Жакында жарыяланат</h3>
+          <p class="detail-note">Датасы жана башталуу убактысы кошулат</p>
+        </article>
+        <div class="detail-divider"></div>
+        <article class="detail-item">
+          <span class="detail-icon">⌖</span>
+          <p class="detail-label">Дареги</p>
+          <h3>Жакында жарыяланат</h3>
+          <p class="detail-note">Той өтүүчү жайдын дареги кошулат</p>
+        </article>
+      </div>
+      <div class="dress-code reveal">
+        <span>✦</span>
+        <p>Сиздердин жылуу маанайыңыздар жана ак тилектериңиздер биз үчүн эң чоң белек.</p>
+      </div>
+    </section>
+
+    <div class="section-bridge" aria-hidden="true"><span>✦</span><i></i><span>❧</span><i></i><span>✦</span></div>
+    <section class="rsvp-section section" id="rsvp">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Сизди күтөбүз</p>
+        <h2>Коноктор үчүн анкета</h2>
+        <p class="muted">Келериңизди алдын ала билдирип коюңуз.</p>
+      </div>
+      <form class="rsvp-card reveal" id="rsvpForm">
+        <p class="form-note">Сураныч, төмөнкү маалыматтарды толтуруңуз ♡</p>
+        <div class="form-field">
+          <label for="guestName">Аты-жөнүңүз</label>
+          <input id="guestName" name="guestName" type="text" placeholder="Аты-жөнүңүздү жазыңыз" required>
+        </div>
+        <div class="form-field">
+          <label for="attendance">Келүү мүмкүнчүлүгүңүз</label>
+          <select id="attendance" name="attendance" required>
+            <option value="" selected disabled>Тандоо</option>
+            <option value="yes">Ооба, сөзсүз келем</option>
+            <option value="no">Тилекке каршы, келе албайм</option>
+            <option value="maybe">Азырынча так айта албайм</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="guests">Канча адам болуп келесиз?</label>
+          <select id="guests" name="guests">
+            <option value="1">1 адам</option>
+            <option value="2">2 адам</option>
+            <option value="3">3 адам</option>
+            <option value="4">4 адам</option>
+            <option value="5">5 адам</option>
+            <option value="6+">6 же андан көп</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Кошумча каалоо-тилек</label>
+          <textarea id="message" name="message" rows="3" placeholder="Каалоо-тилегиңизди калтырсаңыз болот..."></textarea>
+        </div>
+        <button class="submit-button" type="submit">Жоопту жөнөтүү <span>↗</span></button>
+        <p class="form-feedback" id="formFeedback" role="status"></p>
+        <p class="form-disclaimer">Азырынча анкета ушул браузерде гана көрсөтмө катары иштейт. Жоопторду сактоо жана Telegram'га жөнөтүү кийин кошулат.</p>
+      </form>
+    </section>
+
+    <div class="section-bridge" aria-hidden="true"><span>✦</span><i></i><span>❧</span><i></i><span>✦</span></div>
+    <section class="closing section" id="thanks">
+      <div class="closing-content reveal">
+        <p class="section-kicker">Ак тилек менен</p>
+        <h2>Келгениңиздерге<br>кубанычтабыз</h2>
+        <div class="closing-flourish">❧</div>
+        <p class="closing-message">Бул күндүн кубанычын сиздер менен бөлүшүү биз үчүн чоң бакыт.</p>
+        <p class="closing-name">Адина</p>
+        <p class="closing-small">Ак батаңыздарды берип кетиңиздер ♡</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Адина • Кыз узатуу</span>
+    <span>Сүйүү жана урматтоо менен</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
